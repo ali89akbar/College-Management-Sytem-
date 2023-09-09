@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{960C14B1-5E03-4E1F-ADC4-BEB25BD0E5C0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>dp_project</RootNamespace>
+    <AssemblyName>dp_project</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClassScheduleSystem.cs" />
+    <Compile Include="collegeDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>collegeDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="collegeDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>collegeDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Fees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fees.Designer.cs">
+      <DependentUpon>Fees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Info.cs" />
+    <Compile Include="connection.cs" />
+    <Compile Include="Context.cs" />
+    <Compile Include="Course.cs" />
+    <Compile Include="Infotype.cs" />
+    <Compile Include="facade.cs" />
+    <Compile Include="FactoryPattern.cs" />
+    <Compile Include="InFacadePattern.cs" />
+    <Compile Include="schdeule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="schdeule.Designer.cs">
+      <DependentUpon>schdeule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="searchstudentobser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="searchstudentobser.Designer.cs">
+      <DependentUpon>searchstudentobser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="searchteacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="searchteacher.Designer.cs">
+      <DependentUpon>searchteacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="students.cs" />
+    <Compile Include="studpanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="studpanel.Designer.cs">
+      <DependentUpon>studpanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="studrepository.cs" />
+    <Compile Include="updatestudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updatestudent.Designer.cs">
+      <DependentUpon>updatestudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpFacadePattern.cs" />
+    <Compile Include="Stu_Fee.cs" />
+    <Compile Include="FeeDetail.cs" />
+    <Compile Include="FeeDetail1.cs" />
+    <Compile Include="TechData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TechData.Designer.cs">
+      <DependentUpon>TechData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FeeDetail2.cs" />
+    <Compile Include="StuRegis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StuRegis.Designer.cs">
+      <DependentUpon>StuRegis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Singleton.cs" />
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student Fees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student Fees.Designer.cs">
+      <DependentUpon>Student Fees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentC.cs" />
+    <Compile Include="Marksheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marksheet.Designer.cs">
+      <DependentUpon>Marksheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management.Designer.cs">
+      <DependentUpon>Management.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="student.cs" />
+    <Compile Include="LoginInfo.cs" />
+    <Compile Include="viewschedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewschedule.Designer.cs">
+      <DependentUpon>viewschedule.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Fees.resx">
+      <DependentUpon>Fees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="schdeule.resx">
+      <DependentUpon>schdeule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="searchstudentobser.resx">
+      <DependentUpon>searchstudentobser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="searchteacher.resx">
+      <DependentUpon>searchteacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="studpanel.resx">
+      <DependentUpon>studpanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TechData.resx">
+      <DependentUpon>TechData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StuRegis.resx">
+      <DependentUpon>StuRegis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student Fees.resx">
+      <DependentUpon>Student Fees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marksheet.resx">
+      <DependentUpon>Marksheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management.resx">
+      <DependentUpon>Management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="updatestudent.resx">
+      <DependentUpon>updatestudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewschedule.resx">
+      <DependentUpon>viewschedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="collegeDataSet.xsc">
+      <DependentUpon>collegeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="collegeDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>collegeDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="collegeDataSet.xss">
+      <DependentUpon>collegeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="collegeDataSet1.xsc">
+      <DependentUpon>collegeDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="collegeDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>collegeDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="collegeDataSet1.xss">
+      <DependentUpon>collegeDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\graduation-students-background-vector-4399173.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fees.Designer.c" />
+    <None Include="Resources\beb588ac-bb43-4142-b0e6-fe34997878541.jpg" />
+    <None Include="Resources\c7f3d48d-0264-4f04-a815-5a68f1141ec02.jpg" />
+    <None Include="Resources\OJZ2LK0.jpg" />
+    <None Include="Resources\72d6fe8f-6512-497c-b808-5cc1b0d199321.jpg" />
+    <None Include="Resources\c7f3d48d-0264-4f04-a815-5a68f1141ec01.jpg" />
+    <None Include="Resources\72d6fe8f-6512-497c-b808-5cc1b0d19932.jpg" />
+    <None Include="Resources\beb588ac-bb43-4142-b0e6-fe3499787854.jpg" />
+    <None Include="Resources\c7f3d48d-0264-4f04-a815-5a68f1141ec0.jpg" />
+    <None Include="Resources\e1ea1958-869c-4870-b578-607821d41784.jpg" />
+    <None Include="Resources\ee69a54e-b6f9-4611-9836-4ae54d4925ae.jpg" />
+    <None Include="Resources\school-information-management-system-education-png-favpng-JVitNTht5EYkhT5fB2EsqtY2Z.jpg" />
+    <None Include="Resources\abstract-digital-technology-background-with-concept-security-vector.jpg" />
+    <None Include="Resources\student.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

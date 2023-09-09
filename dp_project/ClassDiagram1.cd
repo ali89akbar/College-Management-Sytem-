@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="dp_project.connection" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAQAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>connection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dp_project.Context" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAARAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Context.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dp_project.Course" Collapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Course.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dp_project.facade" Collapsed="true">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAEAAAAAGAAA=</HashCode>
+      <FileName>facade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dp_project.FactoryPattern" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAgAAA=</HashCode>
+      <FileName>FactoryPattern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dp_project.NoDiscountState" Collapsed="true">
+    <Position X="8.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FeeDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dp_project.Discount10State" Collapsed="true">
+    <Position X="4" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FeeDetail1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dp_project.Discount40State" Collapsed="true">
+    <Position X="6.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FeeDetail2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dp_project.InFacadePattern" Collapsed="true">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>InFacadePattern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dp_project.Info" Collapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAQAAAAAQAAAAAAAgAAAAAAUAAAAAgAAAAAAAJA=</HashCode>
+      <FileName>Info.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dp_project.Infotype" Collapsed="true">
+    <Position X="6.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Infotype.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dp_project.Login" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAACAAABAAAACAAAACAAAYAAAQEHAAAAAAgAY=</HashCode>
+      <FileName>Login.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dp_project.LoginInfo" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAgAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>LoginInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dp_project.Management" Collapsed="true">
+    <Position X="14.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CRAAAAAAACYCAHACCRCAAEECAEAAACAQAHCqAIABCAA=</HashCode>
+      <FileName>Management.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dp_project.Marksheet" Collapsed="true">
+    <Position X="16.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/yAAAAQAASIAABCAAACAAABCIEAIDAAAEGAIAAAAALA=</HashCode>
+      <FileName>Marksheet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dp_project.Program" Collapsed="true">
+    <Position X="18" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dp_project.schdeule" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAIBACAACAACACAAgAFAAAAAAAAAAAAAA=</HashCode>
+      <FileName>schdeule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dp_project.searchstudent" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACAQABAAAACAAAASABAQAAAAECAAAQBAAAA=</HashCode>
+      <FileName>searchstudentobser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dp_project.searchteacher" Collapsed="true">
+    <Position X="14.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAACAAgIAAAAEEAAAAAAAEA=</HashCode>
+      <FileName>searchteacher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dp_project.Singleton" Collapsed="true">
+    <Position X="16.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAQAAQABAAAAA=</HashCode>
+      <FileName>Singleton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dp_project.FeeState" Collapsed="true">
+    <Position X="6.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Stu_Fee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dp_project.Student_Fees" Collapsed="true">
+    <Position X="18" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>8DACAAAAACAAABAAAACAAABCIAAoAAAAEHAAAQAAgAI=</HashCode>
+      <FileName>Student Fees.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dp_project.student" Collapsed="true">
+    <Position X="3.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAgAAA=</HashCode>
+      <FileName>student.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dp_project.StudentC" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StudentC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dp_project.studpanel" Collapsed="true">
+    <Position X="16.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQAAwAEAACAAABAAoACBAAACAAAAEAABAAAAAAAAAAA=</HashCode>
+      <FileName>studpanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dp_project.StudentRepository" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAgEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>studrepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dp_project.StuRegis" Collapsed="true">
+    <Position X="18" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAUAASAAABAAAACAQABCIEAQAAIAEHAIAAAAAAA=</HashCode>
+      <FileName>StuRegis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dp_project.TechData" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCAAAAAAACAAABAAAACAAABCIIAYAAAQEHAMAAAAIIA=</HashCode>
+      <FileName>TechData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dp_project.updatestudent" Collapsed="true">
+    <Position X="12.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAACACAAABgQCACAAABCIAAIAACAEEEAAABAAAA=</HashCode>
+      <FileName>updatestudent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dp_project.UpFacadePattern" Collapsed="true">
+    <Position X="14.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UpFacadePattern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dp_project1.students" Collapsed="true">
+    <Position X="14.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>students.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassScheduleSystem.viewschedule" Collapsed="true">
+    <Position X="16.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAACAAAFAAAACAAAACAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>viewschedule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="21" Y="1.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="dp_project.IRepository&lt;T&gt;" Collapsed="true">
+    <Position X="18" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>studrepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
