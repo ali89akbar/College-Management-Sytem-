@@ -1,0 +1,102 @@
+create database college
+use college
+CREATE TABLE dbo.marks (
+    student_name nvarchar(100) NOT NULL,
+    student_id nvarchar(20) PRIMARY KEY NOT NULL,
+    total_marks int NOT NULL,
+    grade nvarchar(10) NOT NULL,
+    percentage int NOT NULL
+);
+
+CREATE TABLE dbo.Users (
+    UserID int PRIMARY KEY NOT NULL,
+    Username varchar(50) NOT NULL,
+    Password varchar(50) NOT NULL,
+    UserRole varchar(10) NOT NULL
+);
+CREATE TABLE dbo.teacher (
+    teacher_id int identity PRIMARY KEY NOT NULL,
+    name nvarchar(100) NOT NULL,
+    gender nvarchar(10) NOT NULL,
+    contact nvarchar(20) NOT NULL,
+    subject nvarchar(50) NOT NULL,
+    class nvarchar(50) NOT NULL,
+    age int NOT NULL
+);
+CREATE TABLE dbo.students (
+    student_id int identity PRIMARY KEY NOT NULL,
+    student_name nvarchar(100) NOT NULL,
+    father_name nvarchar(100) NOT NULL,
+    contact nvarchar(20) NOT NULL,
+    age int NOT NULL
+);
+select * from dbo.students
+insert into dbo.Users values(2,'ali','ali99','admin')
+insert into dbo.Users values(4,'akbar','akbar99','admin')
+select * from dbo.Schedules
+
+insert into dbo.students values(6,'Haider','Ali',02342,25)
+
+
+
+
+
+
+
+
+
+
+
+
+
+select * from students
+
+select * from users 
+insert into Users values(1,'asad','asad99','student')
+CREATE TABLE fees (
+  fee_id INT identity PRIMARY KEY,
+  st_id INT,
+  discount_type VARCHAR(50),
+  FOREIGN KEY (st_id) REFERENCES students(student_id),
+  CHECK (discount_type IN ('govt', 'scholarship', 'Normal')),
+  fees bigint,
+  discountedFees bigint
+);
+ 
+INSERT INTO fees (st_id, discount_type, fees)
+VALUES
+  (6,  'govt', 10000),
+  (5, 'scholarship', 15000),
+  (3, 'Normal', 20000);
+
+SELECT
+  fee_id,
+  st_id,
+  discount_type,
+  fees,
+  CASE
+    WHEN discount_type = 'govt' THEN fees * 0.90  -- 10% discount
+    WHEN discount_type = 'scholarship' THEN fees * 0.60  -- 40% discount
+    ELSE fees
+  END AS discounted_fees
+FROM fees;
+
+
+insert into students values(4,'babar','zaidi',23423423,30),
+(1,'hasan','ali',5456435,21)
+
+insert into fees values(1,'1 month','govt',10000)
+select * from fees
+select student_name,father_name, discount_type,fees from fees join students on st_id = student_id where st_id =1; 
+
+
+create table Schedules(
+s_id int identity primary key,
+ClassName varchar(90),
+DateTimes DATETIME
+)
+
+select * from Schedules
+
+
+
